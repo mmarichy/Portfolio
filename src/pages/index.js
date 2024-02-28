@@ -1,7 +1,9 @@
+import Presentation from '../container/Presentation/presentation'
+
 function Home() {
   return (
     <div>
-      <p>Home</p>
+      <Presentation />
     </div>
   )
 }
