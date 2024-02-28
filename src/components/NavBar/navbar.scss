@@ -1,0 +1,44 @@
+@import '../../styles/variable.scss';
+@import '../../styles/mixin.scss';
+
+.navBar {
+  display: flex;
+  align-items: center;
+
+  & ul {
+    display: flex;
+    gap: 30px;
+
+    @include tablet {
+      gap: 15px;
+    }
+
+    @include mobile {
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    & li {
+      font-size: 20px;
+
+      @include tablet {
+        font-size: 18px;
+      }
+
+      @include mobile {
+        font-size: 24px;
+        text-align: center;
+      }
+    }
+    & .nav-link {
+      color: $white-smoke;
+      transition: color 0.3s ease;
+
+      &:hover {
+        text-shadow: 0 0 20px $white-smoke;
+        color: $neon-blue;
+      }
+    }
+  }
+}
