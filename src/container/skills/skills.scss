@@ -1,0 +1,110 @@
+@import '../../styles/mixin.scss';
+@import '../../styles/variable.scss';
+
+.skills {
+  margin-top: 50px;
+  width: 100%;
+  &_title {
+    font-size: 32px;
+    text-align: center;
+    @include tablet {
+      font-size: 28px;
+    }
+    @include mobile {
+      font-size: 28px;
+    }
+  }
+  &_display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+    @include mobile {
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+  }
+  &_tools {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 35%;
+    @include mobile {
+      margin-top: 30px;
+      width: 90%;
+    }
+    &-title {
+      font-size: 24px;
+      text-align: center;
+      @include tablet {
+        font-size: 20px;
+      }
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+  }
+  &_languages {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 56%;
+    @include mobile {
+      width: 90%;
+    }
+    &-title {
+      font-size: 24px;
+      text-align: center;
+      @include tablet {
+        font-size: 20px;
+      }
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+  }
+  &_background {
+    width: 60%;
+    margin-right: 3%;
+    margin-left: 3%;
+    height: auto;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    backdrop-filter: blur(5px);
+    border-radius: 11px;
+    transition: all ease 0.3s;
+
+    @include tablet {
+      max-height: 790px;
+    }
+    @include mobile {
+      margin-top: 20px;
+      width: 100%;
+      max-height: 800px;
+      text-align: center;
+      margin: 20px -10px;
+    }
+    &:hover {
+      box-shadow: 0px 0px 20px 1px $gold;
+      border: 1px solid $light-gray;
+    }
+
+    &::before {
+      content: '';
+      background-color: $gold;
+      position: absolute;
+    }
+
+    &::before {
+      border-radius: 50%;
+      width: 5rem;
+      height: 5rem;
+      bottom: 5%;
+      right: 5%;
+      filter: blur(150px);
+    }
+  }
+}
