@@ -1,0 +1,44 @@
+[
+  {
+    "id": "language1",
+    "title": "HTML 5",
+    "cover": "../assets/language/html.png",
+    "alt": "Icône HTML5"
+  },
+  {
+    "id": "language2",
+    "title": "CSS 3",
+    "cover": "../assets/language/css.png",
+    "alt": "Icône CSS3"
+  },
+  {
+    "id": "language3",
+    "title": "Sass",
+    "cover": "../assets/language/css.png",
+    "alt": "Icône Sass"
+  },
+  {
+    "id": "language4",
+    "title": "JavaScript",
+    "cover": "../assets/language/js.png",
+    "alt": "Icône JavaScript"
+  },
+  {
+    "id": "language5",
+    "title": "React",
+    "cover": "../assets/language/react.png",
+    "alt": "Icône React"
+  },
+  {
+    "id": "language6",
+    "title": "Redux",
+    "cover": "../assets/language/redux.png",
+    "alt": "Icône Redux"
+  },
+  {
+    "id": "language7",
+    "title": "React-Router",
+    "cover": "../assets/language/react-router.png",
+    "alt": "Icône React-Router"
+  }
+]
