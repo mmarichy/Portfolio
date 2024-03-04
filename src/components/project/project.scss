@@ -1,0 +1,121 @@
+@import '../../styles/variable.scss';
+@import '../../styles/mixin.scss';
+
+.projects-flex {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.card {
+  width: 450px;
+  height: 300px;
+  background: $dark-gray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $dark-blue;
+  text-shadow: 0 0 10px $dark-gray;
+  transition: 0.2s ease-in-out;
+
+  @include mobile {
+    max-width: 100%;
+  }
+}
+
+.img {
+  width: 440px;
+  height: 290px;
+  border-radius: 20px;
+  position: absolute;
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+  @include mobile {
+    max-width: 100%;
+  }
+}
+
+.textBox {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: 0.2s ease-in-out;
+  z-index: 2;
+
+  & > .text {
+    font-weight: bold;
+  }
+  & > .head {
+    font-size: 20px;
+  }
+  & > span {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 12px;
+    color: $white-smoke;
+  }
+  & > .price {
+    font-size: 17px;
+  }
+}
+
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: $neon-blue;
+  color: $white-smoke;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.04) rotate(-1deg);
+  box-shadow: 0px 0px 20px 1px $neon-blue;
+  border: 1px solid $light-gray;
+
+  & > .textBox {
+    opacity: 1;
+  }
+
+  & > .img {
+    width: 85%;
+    height: 85%;
+    filter: blur(10px);
+    animation: anim 3s infinite;
+  }
+}
+
+.card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

@@ -2,10 +2,12 @@
   {
     "id": "1",
     "title": "Booki",
+    "category": "HTML",
     "description": "Quatrièmes projets du parcours `Intégrateur web` chez OpenClassroom. L'objectif est de développer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.",
-    "cover": "../assets/projects/homyfood/header.png",
+    "cover": "../assets/projects/booki/header.png",
     "alt": "page d'accueil du site",
-    "langage": ["HTML", "CSS"],
+    "langage": ["../assets/language/html.webp", "../assets/language/css.webp"],
+    "altlang": ["HTML ", "CSS"],
     "pictures": [
       "../assets/projects/homyfood/header.png",
       "../assets/projects/homyfood/footer.png"
@@ -15,11 +17,13 @@
   },
   {
     "id": "2",
-    "title": "HoMyFood",
+    "title": "Ho My Food",
+    "category": "HTML",
     "description": "Quatrièmes projets du parcours `Intégrateur web` chez OpenClassroom. L'objectif est de développer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.",
     "cover": "../assets/projects/homyfood/global.png",
     "alt": "page d'accueil du site",
-    "langage": ["HTML", "SASS"],
+    "langage": ["../assets/language/html.webp", "../assets/language/sass.webp"],
+    "altlang": ["HTML ", "SASS"],
     "pictures": [
       "../assets/projects/homyfood/global.png",
       "../assets/projects/homyfood/menu.png"
@@ -29,22 +33,26 @@
   },
   {
     "id": "3",
-    "title": "Print-it-JS",
+    "title": "Print it",
+    "category": "JavaScript",
     "description": "Cinquieme projet du parcours  chez OpenClassroom. L'objectif est de dynamiser une partie du site `Print-It` avec l'utilisation de JavaScript.",
-    "cover": "../assets/projects/print-it/global.png",
+    "cover": "../assets/projects/print-it/header.png",
     "alt": "page d'accueil du site",
-    "langage": ["HTML", "CSS", "JS"],
-    "pictures": ["../assets/projects/print-it/global.png"],
+    "langage": ["../assets/language/html.webp", "../assets/language/js.webp"],
+    "altlang": ["HTML ", "JavaScript"],
+    "pictures": ["../assets/projects/print-it/header.png"],
     "site": "https://mmarichy.github.io/Print-it-JS/",
     "github": "https://github.com/mmarichy/Print-it-JS"
   },
   {
     "id": "4",
     "title": "Sophie Bluel",
+    "category": "JavaScript",
     "description": "Sixième du parcours `Intégrateur web` chez OpenClassrooms. L'objectif était de créer une galerie avec les différents projets de la photographe, et de gérer la connexion grâce à l'API.",
     "cover": "../assets/projects/sophie/home.png",
     "alt": "page d'accueil du site",
-    "langage": ["HTML", "SASS", "JS", "API"],
+    "langage": ["../assets/language/html.webp", "../assets/language/js.webp"],
+    "altlang": ["HTML ", "JavaScript"],
     "pictures": [
       "../assets/projects/sophie/home.png",
       "../assets/projects/sophie/footer.png",
@@ -56,10 +64,15 @@
   {
     "id": "5",
     "title": "Kasa",
+    "category": "React",
     "description": "Huitième projet du parcours `Intégrateur web` chez OpenClassrooms. L'objectif était de créer un site dynamique de location immobilière.",
     "cover": "../assets/projects/kasa/home.png",
     "alt": "page d'accueil du site",
-    "langage": ["React", "SASS"],
+    "langage": [
+      "../assets/language/react.webp",
+      "../assets/language/sass.webp"
+    ],
+    "altlang": ["React ", "SASS"],
     "pictures": [
       "../assets/projects/kasa/home.png",
       "../assets/projects/kasa/logement.png",
@@ -70,26 +83,16 @@
   },
   {
     "id": "6",
-    "title": "Nina Carducci",
-    "description": "Neuvième projet du parcours `Intégrateur web` chez OpenClassrooms. L'objectif était d'optimiser et de debugger un site web.",
-    "cover": "../assets/projects/nina/header.png",
-    "alt": "page d'accueil du site",
-    "langage": ["HTML", "CSS", "SEO"],
-    "pictures": [
-      "../assets/projects/nina/header.png",
-      "../assets/projects/nina/gallery.png",
-      "../assets/projects/nina/footer.png"
-    ],
-    "site": "https://mmarichy.github.io/Nina-Carducci/",
-    "github": "https://github.com/mmarichy/Nina-Carducci"
-  },
-  {
-    "id": "7",
     "title": "Argent Bank",
+    "category": "React",
     "description": "Onzième projet du parcours `Intégrateur web` chez OpenClassrooms. L'objectif était d'implémenter le front-end d'une application bancaire avec React.",
     "cover": "../assets/projects/argentBank/home.png",
     "alt": "page d'accueil du site",
-    "langage": ["React", "Redux", "SASS", "Swagger"],
+    "langage": [
+      "../assets/language/react.webp",
+      "../assets/language/redux.webp"
+    ],
+    "altlang": ["React ", "Redux"],
     "pictures": [
       "../assets/projects/argentBank/home.png",
       "../assets/projects/argentBank/login.png",

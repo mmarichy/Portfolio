@@ -1,0 +1,20 @@
+@import '../../styles/variable.scss';
+@import '../../styles/mixin.scss';
+
+.filter_container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+
+  &-select {
+    max-width: 180px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    border-radius: 15px;
+    background-color: $dark-gray;
+    color: $white-smoke;
+  }
+}
