@@ -1,10 +1,10 @@
-import Logo from '../../components/Logo/logo'
-import NavBar from '../../components/NavBar/navbar'
+import Logo from '../../components/logo/logo'
+import NavBar from '../../components/navbar/nav'
 import './header.scss'
 
 export default function Header() {
   return (
-    <header className="header">
+    <header className="header" id="header">
       <Logo />
       <NavBar />
     </header>

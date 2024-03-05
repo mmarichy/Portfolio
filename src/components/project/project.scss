@@ -36,6 +36,7 @@
   z-index: 1;
   @include mobile {
     max-width: 100%;
+    object-fit: cover;
   }
 }
 
