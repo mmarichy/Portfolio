@@ -11,7 +11,7 @@ const Experience = () => {
   }
 
   return (
-    <section className="experience">
+    <section className="experience" id="projets">
       <h2 className="experience_title">Mes projets</h2>
       <div>
         <Filter onFilterChange={handleFilterChange} />

@@ -6,17 +6,17 @@ function NavBar() {
       <nav className="navBar">
         <ul>
           <li>
-            <a href="/about" className="nav-link">
+            <a href="#skills" className="nav-link">
               À propos
             </a>
           </li>
           <li>
-            <a href="/projets" className="nav-link">
+            <a href="#projets" className="nav-link">
               Projets
             </a>
           </li>
           <li>
-            <a href="/contact" className="nav-link">
+            <a href="#contact" className="nav-link">
               Contact
             </a>
           </li>

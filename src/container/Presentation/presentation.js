@@ -35,14 +35,19 @@ export default function Presentation() {
         </div>
         <div className="intro_pres-links">
           <button className="button">
-            <a href="https://github.com/mmarichy" target="blank">
+            <a
+              href="https://github.com/mmarichy"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={GitHub} alt="Lien vers mon profil GitHub" />
             </a>
           </button>
           <button className="button">
             <a
-              href="https://www.linkedin.com/in/matthieu-bonjour/"
-              target="blank"
+              href="https://www.linkedin.com/in/mathis-marichy/"
+              target="_blank"
+              rel="noreferrer"
             >
               <img src={LinkedIn} alt="Lien vers mon profil LinkedIn" />
             </a>
