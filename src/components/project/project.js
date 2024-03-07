@@ -7,11 +7,7 @@ function ProjectsCard({ filter }) {
     <div className="projects-flex">
       {Projects &&
         Projects.map((project) => (
-          <Link
-            key={project.id}
-            to={`/projects/${project.title}`}
-            onClick={null}
-          >
+          <Link key={project.id} to={'/projet/' + project.title} onClick={null}>
             <div className="card">
               <img src={project.cover} alt={project.alt} className="img" />
               <div className="textBox">
