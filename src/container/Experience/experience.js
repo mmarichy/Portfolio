@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Filter from '../../components/filtre/filtre'
-import ProjectsCard from '../../components/project/project'
+import ProjectsCard from '../../components/project/projectsCard'
 import './experience.scss'
 
 const Experience = () => {

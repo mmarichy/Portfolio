@@ -58,7 +58,7 @@
       "../assets/projects/sophie/footer.png",
       "../assets/projects/sophie/login.png"
     ],
-    "site": "",
+    "site": null,
     "github": "https://github.com/mmarichy/sophie-bluel"
   },
   {
@@ -98,7 +98,7 @@
       "../assets/projects/argentBank/login.png",
       "../assets/projects/argentBank/profile.png"
     ],
-    "site": "https://mmarichy.github.io/Nina-Carducci/",
+    "site": null,
     "github": "https://github.com/mmarichy/Nina-Carducci"
   }
 ]

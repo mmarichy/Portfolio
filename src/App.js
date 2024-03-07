@@ -17,9 +17,9 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/projets/:id" element={<Projet />} />
-          <Route path="*" element={<Navigate to="/404" />} />
-          <Route path="/404" element={<Error />} />
+          <Route path="/Projets/:id" element={<Projet />} />
+          <Route path="*" element={<Navigate to="/Error" />} />
+          <Route path="/Error" element={<Error />} />
         </Routes>
         <Footer />
       </div>

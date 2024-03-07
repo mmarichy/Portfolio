@@ -1,4 +1,4 @@
-import './project.scss'
+import './projectsCard.scss'
 import Projects from '../../data/projets.json'
 import { Link } from 'react-router-dom'
 
@@ -7,7 +7,12 @@ function ProjectsCard({ filter }) {
     <div className="projects-flex">
       {Projects &&
         Projects.map((project) => (
-          <Link key={project.id} to={'/projet/' + project.title} onClick={null}>
+          <Link
+            key={project.id}
+            to={'/Projets/' + project.title}
+            onClick={null}
+            className="link"
+          >
             <div className="card">
               <img src={project.cover} alt={project.alt} className="img" />
               <div className="textBox">
@@ -16,12 +21,12 @@ function ProjectsCard({ filter }) {
                   <img
                     className="text price"
                     src={project.langage[0]}
-                    alt={project.altlang}
+                    alt={project.altlang[0]}
                   ></img>
                   <img
                     className="text price"
                     src={project.langage[1]}
-                    alt={project.altlang}
+                    alt={project.altlang[1]}
                   ></img>
                 </div>
               </div>
@@ -48,12 +53,12 @@ function ProjectsCard({ filter }) {
                     <img
                       className="text price"
                       src={project.langage[0]}
-                      alt={project.altlang}
+                      alt={project.altlang[0]}
                     ></img>
                     <img
                       className="text price"
                       src={project.langage[1]}
-                      alt={project.altlang}
+                      alt={project.altlang[1]}
                     ></img>
                   </div>
                 </div>
