@@ -12,7 +12,7 @@ export default function Presentation() {
       <div className="cadre">
         <div className="intro_pres">
           <p>
-            Embalé par l'informatique depuis le lycée, j'ai obtenu un bac STI2D
+            Emballé par l'informatique depuis le lycée, j'ai obtenu un bac STI2D
             option Système d'Information et Numérique en 2020. Malheureusement
             sans poursuite d'étude post-covid, j'ai laissé de côté cette passion
             pour me concentrer sur la vie professionnelle.
@@ -23,8 +23,8 @@ export default function Presentation() {
             <br />
             Après 8 longs mois d'attente, soutenue par France Travail, j'ai
             intégré la formation certifiante développeur intégrateur web niveau
-            bac +2 d'OpenClassroom. Durant l'laquelle j'ai solidifié mes
-            compétences en HTML/CSS et obtenue de nouvelles connaissances en
+            bac +2 d'OpenClassroom. Durant laquelle j'ai solidifié mes
+            compétences en HTML/CSS et obtenu de nouvelles connaissances en
             JavaScript/React.
           </p>
           <p>

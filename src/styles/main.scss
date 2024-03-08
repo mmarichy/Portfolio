@@ -29,6 +29,7 @@ ul {
 }
 
 p {
+  text-align: justify;
   font-size: 18px;
   letter-spacing: 2.5px;
   @include tablet {

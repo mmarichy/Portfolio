@@ -22,6 +22,8 @@
     @include mobile {
       align-items: center;
       flex-direction: column-reverse;
+      width: 96%;
+      margin: 0 2%;
     }
   }
   &_tools {

@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Booki",
     "category": "HTML",
-    "description": "Quatrièmes projets du parcours `Intégrateur web` chez OpenClassroom. L'objectif est de développer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.",
+    "description": "Le projet vise à concevoir et à développer une page d'accueil dynamique, interactive et réactive pour un site web d'hébergement en ligne. Cette page devra s'adapter de manière fluide aux différentes tailles d'écrans, y compris les ordinateurs de bureau, les tablettes et les appareils mobiles, tout en offrant une expérience utilisateur optimale. Pour ajouter du dynamisme, des interactions utilisateur seront implémentées, telles que des effets de survol, des transitions fluides entre les éléments, et éventuellement des animations CSS pour rendre la page plus attrayante et engageante.",
     "cover": "../assets/projects/booki/header.png",
     "alt": "page d'accueil du site",
     "langage": ["../assets/language/html.webp", "../assets/language/css.webp"],
@@ -19,7 +19,7 @@
     "id": "2",
     "title": "Ho My Food",
     "category": "HTML",
-    "description": "Quatrièmes projets du parcours `Intégrateur web` chez OpenClassroom. L'objectif est de développer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.",
+    "description": "Le projet consiste à concevoir et à développer un site web pour des restaurants gastronomiques à Paris. Le site présentera quatre restaurants différents, chacun offrant un menu unique que les utilisateurs pourront consulter et commander à l'avance pour déguster sur place. Le site sera un exemple non fonctionnel, axé sur la présentation des restaurants et de leurs menus. Le développement se fera en utilisant Sass comme préprocesseur CSS pour une gestion plus efficace des styles et une meilleure maintenabilité du code.",
     "cover": "../assets/projects/homyfood/global.png",
     "alt": "page d'accueil du site",
     "langage": ["../assets/language/html.webp", "../assets/language/sass.webp"],
@@ -35,7 +35,7 @@
     "id": "3",
     "title": "Print it",
     "category": "JavaScript",
-    "description": "Cinquieme projet du parcours  chez OpenClassroom. L'objectif est de dynamiser une partie du site `Print-It` avec l'utilisation de JavaScript.",
+    "description": "Ce projet vise à explorer les fondamentaux de JavaScript en créant un carrousel simple pour un site web spécialisé dans l'impression papier. Le carrousel permettra de présenter différents types de produits d'impression, tels que des brochures, des dépliants ou des affiches, de manière interactive et attrayante.",
     "cover": "../assets/projects/print-it/header.png",
     "alt": "page d'accueil du site",
     "langage": ["../assets/language/html.webp", "../assets/language/js.webp"],
@@ -48,7 +48,7 @@
     "id": "4",
     "title": "Sophie Bluel",
     "category": "JavaScript",
-    "description": "Sixième du parcours `Intégrateur web` chez OpenClassrooms. L'objectif était de créer une galerie avec les différents projets de la photographe, et de gérer la connexion grâce à l'API.",
+    "description": "Ce projet vise à créer une galerie de projets pour un photographe, avec la possibilité de se connecter et d'accéder à un mode administrateur pour ajouter et supprimer des projets. L'ajout et la suppression de projets se font dans des modales interactives. L'utilisation de JavaScript et d'une API pour la gestion des données est au cœur du développement.",
     "cover": "../assets/projects/sophie/home.png",
     "alt": "page d'accueil du site",
     "langage": ["../assets/language/html.webp", "../assets/language/js.webp"],
@@ -65,7 +65,7 @@
     "id": "5",
     "title": "Kasa",
     "category": "React",
-    "description": "Huitième projet du parcours `Intégrateur web` chez OpenClassrooms. L'objectif était de créer un site dynamique de location immobilière.",
+    "description": "Le projet vise à concevoir et à développer un site de location d'appartements offrant une interface conviviale et réactive. Les appartements seront présentés dans une galerie et chaque appartement disposera d'une page dédiée gérée grâce à React et React Router. De plus, une page `À Propos` décrira les principes fondamentaux du site, tels que la fiabilité, le respect, le service et la sécurité.",
     "cover": "../assets/projects/kasa/home.png",
     "alt": "page d'accueil du site",
     "langage": [
@@ -85,7 +85,7 @@
     "id": "6",
     "title": "Argent Bank",
     "category": "React",
-    "description": "Onzième projet du parcours `Intégrateur web` chez OpenClassrooms. L'objectif était d'implémenter le front-end d'une application bancaire avec React.",
+    "description": "Ce projet consiste à développer le frontend d'une application bancaire utilisant React. L'objectif est de permettre aux utilisateurs de se connecter à leur compte bancaire, de gérer leur profil (y compris le changement de pseudo) et d'accéder à de nouvelles fonctionnalités telles que la gestion des comptes et des transactions via de nouvelles routes Swagger.",
     "cover": "../assets/projects/argentBank/home.png",
     "alt": "page d'accueil du site",
     "langage": [
@@ -99,6 +99,6 @@
       "../assets/projects/argentBank/profile.png"
     ],
     "site": null,
-    "github": "https://github.com/mmarichy/Nina-Carducci"
+    "github": "https://github.com/mmarichy/ArgentBank"
   }
 ]
