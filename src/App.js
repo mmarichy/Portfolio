@@ -16,7 +16,7 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Accueil" element={<Home />} />
           <Route path="/Projets/:id" element={<Projet />} />
           <Route path="*" element={<Navigate to="/Error" />} />
           <Route path="/Error" element={<Error />} />

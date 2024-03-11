@@ -4,7 +4,7 @@ import './logo.scss'
 function Logo() {
   return (
     <div className="logoNav">
-      <a href="/">
+      <a href="/Accueil">
         <img src={LogoMM} alt="Logo"></img>
       </a>
     </div>
