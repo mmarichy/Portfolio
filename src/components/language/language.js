@@ -6,7 +6,7 @@ export default function LanguageGrid() {
     <div className="languages_grid">
       {Languages &&
         Languages.map((language) => (
-          <div key={language.id}>
+          <div key={language.id} className="languages_grid_display">
             <img src={language.image} alt={language.alt} />
             <p>{language.title}</p>
           </div>

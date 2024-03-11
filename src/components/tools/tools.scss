@@ -17,4 +17,10 @@
   &_img {
     margin-bottom: 5px;
   }
+
+  &_display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
