@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route exact path="/Portfolio" element={<Home />} />
           <Route path="/Portfolio/Projets/:id" element={<Projet />} />
-          <Route path="*" element={<Navigate to="/Error" />} />
+          <Route path="*" element={<Navigate to="/Portfolio/Error" />} />
           <Route path="/Portfolio/Error" element={<Error />} />
         </Routes>
         <Footer />
