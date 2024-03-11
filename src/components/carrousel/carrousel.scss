@@ -1,0 +1,61 @@
+@import '../../styles/variable.scss';
+@import '../../styles/mixin.scss';
+
+.carrouselBox {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  width: 640px;
+  height: auto;
+  margin: auto;
+  border-radius: 25px;
+  margin-top: 130px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  @include tablet {
+    width: 95%;
+  }
+
+  @include mobile {
+    width: 95%;
+  }
+
+  .slides {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+
+  img[alt='Arrow'] {
+    position: absolute;
+    border: none;
+    width: 45px;
+    height: auto;
+    cursor: pointer;
+
+    @include mobile {
+      width: 50px;
+    }
+
+    &.previous {
+      rotate: 180deg;
+      top: 40%;
+      left: 1%;
+
+      @include mobile {
+        top: 45%;
+      }
+    }
+
+    &.next {
+      top: 40%;
+      right: 1%;
+      @include mobile {
+        top: 45%;
+      }
+    }
+  }
+}

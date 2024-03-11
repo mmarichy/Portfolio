@@ -9,8 +9,8 @@
     "langage": ["../assets/language/html.webp", "../assets/language/css.webp"],
     "altlang": ["HTML ", "CSS"],
     "pictures": [
-      "../assets/projects/homyfood/header.png",
-      "../assets/projects/homyfood/footer.png"
+      "../assets/projects/booki/header.png",
+      "../assets/projects/booki/footer.png"
     ],
     "site": "https://mmarichy.github.io/Booki/",
     "github": "https://github.com/mmarichy/Booki"

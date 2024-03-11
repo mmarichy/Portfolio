@@ -1,0 +1,14 @@
+@import '../../styles/mixin.scss';
+.displayProject {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  @include tablet {
+    flex-direction: column;
+  }
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
