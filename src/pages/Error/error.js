@@ -6,7 +6,7 @@ function Error() {
     <div className="error">
       <img src={Dog} alt="https://http.dog/" className="dog404" />
 
-      <a href="/Accueil" className="homeLink404">
+      <a href="/Portfolio" className="homeLink404">
         Retourner à la page d'acceuil
       </a>
     </div>

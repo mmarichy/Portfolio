@@ -34,7 +34,7 @@ function NavBar() {
         <nav className="navBar">
           <ul>
             <li>
-              <a href="/Accueil" className="nav-link">
+              <a href="/Portfolio" className="nav-link">
                 Accueil
               </a>
             </li>

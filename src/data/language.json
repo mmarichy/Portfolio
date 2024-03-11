@@ -2,43 +2,43 @@
   {
     "id": "language1",
     "title": "HTML 5",
-    "image": "../accueil/assets/language/html.webp",
+    "image": "../Portfolio/assets/language/html.webp",
     "alt": "Icône HTML5"
   },
   {
     "id": "language2",
     "title": "CSS 3",
-    "image": "../accueil/assets/language/css.webp",
+    "image": "../Portfolio/assets/language/css.webp",
     "alt": "Icône CSS3"
   },
   {
     "id": "language3",
     "title": "Sass",
-    "image": "../accueil/assets/language/sass.webp",
+    "image": "../Portfolio/assets/language/sass.webp",
     "alt": "Icône Sass"
   },
   {
     "id": "language4",
     "title": "JavaScript",
-    "image": "../accueil/assets/language/js.webp",
+    "image": "../Portfolio/assets/language/js.webp",
     "alt": "Icône JavaScript"
   },
   {
     "id": "language5",
     "title": "React",
-    "image": "../accueil/assets/language/react.webp",
+    "image": "../Portfolio/assets/language/react.webp",
     "alt": "Icône React"
   },
   {
     "id": "language6",
     "title": "Redux",
-    "image": "../accueil/assets/language/redux.webp",
+    "image": "../Portfolio/assets/language/redux.webp",
     "alt": "Icône Redux"
   },
   {
     "id": "language7",
     "title": "React-Router",
-    "image": "../accueil/assets/language/react-router.webp",
+    "image": "../Portfolio/assets/language/react-router.webp",
     "alt": "Icône React-Router"
   }
 ]
