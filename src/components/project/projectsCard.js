@@ -9,7 +9,7 @@ function ProjectsCard({ filter }) {
         Projects.map((project) => (
           <Link
             key={project.id}
-            to={'/Projets/' + project.title}
+            to={'/Portfolio/Projets/' + project.title}
             onClick={null}
             className="link"
           >
@@ -42,7 +42,7 @@ function ProjectsCard({ filter }) {
           (project) => (
             <Link
               key={project.id}
-              to={`/projects/${project.title}`}
+              to={`/Portfolio/projects/${project.title}`}
               onClick={null}
               className="link"
             >
