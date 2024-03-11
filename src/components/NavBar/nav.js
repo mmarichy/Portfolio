@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom'
 
 function NavBar() {
   const currentLocation = useLocation()
-  console.log(currentLocation)
+  // console.log(currentLocation)
   if (currentLocation.pathname === '/') {
     return (
       <>

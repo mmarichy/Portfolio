@@ -2,37 +2,37 @@
   {
     "id": "tools1",
     "title": "GitHub",
-    "image": "../assets/tools/github-mark-white.webp",
+    "image": "../accueil/assets/tools/github-mark-white.webp",
     "alt": "Icône Github"
   },
   {
     "id": "tools2",
     "title": "Git",
-    "image": "../assets/tools/git-mark.webp",
+    "image": "../accueil/assets/tools/git-mark.webp",
     "alt": "Icône Git"
   },
   {
     "id": "tools3",
     "title": "VSCode",
-    "image": "../assets/tools/vscode-mark.webp",
+    "image": "../accueil/assets/tools/vscode-mark.webp",
     "alt": "Icône VSCode"
   },
   {
     "id": "tools4",
     "title": "Postman",
-    "image": "../assets/tools/postman-mark.webp",
+    "image": "../accueil/assets/tools/postman-mark.webp",
     "alt": "Icône Postman"
   },
   {
     "id": "tools5",
     "title": "Swagger",
-    "image": "../assets/tools/swagger-mark.webp",
+    "image": "../accueil/assets/tools/swagger-mark.webp",
     "alt": "Icône Swagger"
   },
   {
     "id": "tools6",
     "title": "Figma",
-    "image": "../assets/tools/figma-mark.webp",
+    "image": "../accueil/assets/tools/figma-mark.webp",
     "alt": "Icône Figma"
   }
 ]
