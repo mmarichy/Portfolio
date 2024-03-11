@@ -44,6 +44,7 @@ function ProjectsCard({ filter }) {
               key={project.id}
               to={`/projects/${project.title}`}
               onClick={null}
+              className="link"
             >
               <div className="card">
                 <img src={project.cover} alt={project.alt} className="img" />
