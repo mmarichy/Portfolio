@@ -1,6 +1,25 @@
 @import '../../styles/mixin.scss';
 @import '../../styles/variable.scss';
 
+.myName {
+  position: absolute;
+  top: 3%;
+  left: 45%;
+  text-align: center;
+  font-size: larger;
+  text-decoration: underline;
+
+  @include tablet {
+    top: 2%;
+  }
+
+  @include mobile {
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
 .intro {
   display: flex;
   justify-content: space-between;
@@ -111,15 +130,6 @@
   bottom: 15%;
   right: 15%;
   filter: blur(100px);
-}
-
-.cadre::after {
-  content: '';
-  position: absolute;
-  height: 9rem;
-  top: 8%;
-  right: 1%;
-  border: 1px solid $neon-blue;
 }
 
 .cadre {
