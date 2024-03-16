@@ -2,13 +2,12 @@
 @import '../../styles/mixin.scss';
 
 footer {
-  margin-top: 50px;
+  margin-top: 104px;
   height: 150px;
   width: 100%;
   background-color: rgba(33, 34, 39);
   color: $white-smoke;
   box-shadow: 0 -1px 20px $gold;
-
   @include mobile {
     flex-direction: column;
     height: 250px;
