@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4fc2f5dc.css",
-    "main.js": "/Portfolio/static/js/main.1e3073f3.js",
+    "main.css": "/Portfolio/static/css/main.9f11d7f8.css",
+    "main.js": "/Portfolio/static/js/main.f421796d.js",
     "static/media/404Dog.png": "/Portfolio/static/media/404Dog.071ece010381ce7d0759.png",
     "static/media/Marichy_Mathis.pdf": "/Portfolio/static/media/Marichy_Mathis.e169fb1c0bea94fe2dbb.pdf",
     "static/media/presentation-picture.webp": "/Portfolio/static/media/presentation-picture.f55a18111c79afd543fc.webp",
@@ -10,11 +10,11 @@
     "static/media/github-mark-white.webp": "/Portfolio/static/media/github-mark-white.1c24c08a998652fbaf67.webp",
     "index.html": "/Portfolio/index.html",
     "static/media/Linkedin.webp": "/Portfolio/static/media/Linkedin.4ababa3f2137274bd59a.webp",
-    "main.4fc2f5dc.css.map": "/Portfolio/static/css/main.4fc2f5dc.css.map",
-    "main.1e3073f3.js.map": "/Portfolio/static/js/main.1e3073f3.js.map"
+    "main.9f11d7f8.css.map": "/Portfolio/static/css/main.9f11d7f8.css.map",
+    "main.f421796d.js.map": "/Portfolio/static/js/main.f421796d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc2f5dc.css",
-    "static/js/main.1e3073f3.js"
+    "static/css/main.9f11d7f8.css",
+    "static/js/main.f421796d.js"
   ]
 }
