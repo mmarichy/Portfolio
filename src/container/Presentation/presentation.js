@@ -19,15 +19,13 @@ export default function Presentation() {
             <p>
               Emballé par l'informatique depuis le lycée, j'ai obtenu un bac
               STI2D option Système d'Information et Numérique en 2020.
-              Malheureusement sans poursuite d'étude post-covid, j'ai laissé de
-              côté cette passion pour me concentrer sur la vie professionnelle.
             </p>
             <p>
               C'est en 2022 que j'ai eu une opportunité de reprendre mes études
               de développeur suite à un changement de vie.
-              <br />
-              Après 8 longs mois d'attente, soutenue par France Travail, j'ai
-              intégré la formation certifiante développeur intégrateur web
+            </p>
+            <p>
+              J'ai intégré la formation certifiante développeur intégrateur web
               niveau bac +2 d'OpenClassroom. Durant laquelle j'ai solidifié mes
               compétences en HTML/CSS et obtenu de nouvelles connaissances en
               JavaScript/React.
@@ -35,7 +33,8 @@ export default function Presentation() {
             <p>
               En fin de formation, je suis fier de ce que j'ai accompli et prêt
               à découvrir de nouvelle opportunité et solidifier davantage mes
-              connaissances dans le web.
+              connaissances dans le web. Je suis prêt à me donner à fond pour
+              mon futur : rejoindre l'armée de terre en tant que développeur.
             </p>
           </div>
           <div className="intro_pres-links">
