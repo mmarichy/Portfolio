@@ -33,8 +33,7 @@ export default function Presentation() {
             <p>
               En fin de formation, je suis fier de ce que j'ai accompli et prêt
               à découvrir de nouvelle opportunité et solidifier davantage mes
-              connaissances dans le web. Je suis prêt à me donner à fond pour
-              mon futur : rejoindre l'armée de terre en tant que développeur.
+              connaissances dans le web.
             </p>
           </div>
           <div className="intro_pres-links">
