@@ -2,7 +2,7 @@ import './presentation.scss'
 import GitHub from '../../assets/github-mark-white.webp'
 import LinkedIn from '../../assets/Linkedin.webp'
 import PresPicture from '../../assets/presentation-picture.webp'
-import myCV from '../../assets/Marichy_Mathis.pdf'
+import myCV from '../../assets/Mathis_Marichy.pdf'
 
 export default function Presentation() {
   return (

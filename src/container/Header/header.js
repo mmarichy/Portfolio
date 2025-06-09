@@ -1,5 +1,5 @@
-import Logo from '../../components/logo/mylogo'
-import NavBar from '../../components/navbar/nav'
+import Logo from '../../components/Logo/mylogo'
+import NavBar from '../../components/NavBar/nav'
 import './header.scss'
 
 export default function Header() {
