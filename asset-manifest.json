@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9f11d7f8.css",
-    "main.js": "/Portfolio/static/js/main.f421796d.js",
+    "main.css": "/Portfolio/static/css/main.3ffd448b.css",
+    "main.js": "/Portfolio/static/js/main.c8ed575a.js",
+    "static/media/presentation-picture.webp": "/Portfolio/static/media/presentation-picture.0aec7c4e80003099ba05.webp",
+    "static/media/Mathis_Marichy.pdf": "/Portfolio/static/media/Mathis_Marichy.1ff6833a06417994b424.pdf",
     "static/media/404Dog.png": "/Portfolio/static/media/404Dog.071ece010381ce7d0759.png",
-    "static/media/Marichy_Mathis.pdf": "/Portfolio/static/media/Marichy_Mathis.e169fb1c0bea94fe2dbb.pdf",
-    "static/media/presentation-picture.webp": "/Portfolio/static/media/presentation-picture.f55a18111c79afd543fc.webp",
     "static/media/Logo.png": "/Portfolio/static/media/Logo.846c49dd3bb98a50d2a0.png",
     "static/media/asfalt-light.webp": "/Portfolio/static/media/asfalt-light.d34e8ea31af2ca3dff82.webp",
     "static/media/github-mark-white.webp": "/Portfolio/static/media/github-mark-white.1c24c08a998652fbaf67.webp",
     "index.html": "/Portfolio/index.html",
     "static/media/Linkedin.webp": "/Portfolio/static/media/Linkedin.4ababa3f2137274bd59a.webp",
-    "main.9f11d7f8.css.map": "/Portfolio/static/css/main.9f11d7f8.css.map",
-    "main.f421796d.js.map": "/Portfolio/static/js/main.f421796d.js.map"
+    "main.3ffd448b.css.map": "/Portfolio/static/css/main.3ffd448b.css.map",
+    "main.c8ed575a.js.map": "/Portfolio/static/js/main.c8ed575a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f11d7f8.css",
-    "static/js/main.f421796d.js"
+    "static/css/main.3ffd448b.css",
+    "static/js/main.c8ed575a.js"
   ]
 }
