@@ -17,23 +17,27 @@ export default function Presentation() {
         <div className="cadre">
           <div className="intro_pres">
             <p>
-              Emballé par l'informatique depuis le lycée, j'ai obtenu un bac
+              Passionné par l'informatique depuis le lycée, j'ai obtenu un bac
               STI2D option Système d'Information et Numérique en 2020.
             </p>
             <p>
-              C'est en 2022 que j'ai eu une opportunité de reprendre mes études
-              de développeur suite à un changement de vie.
+              En 2022, j'ai saisi l'opportunité de
+              reprendre mes études dans le développement web. J'ai intégré la
+              formation certifiante Développeur Intégrateur Web (niveau bac +2)
+              d'OpenClassrooms, au cours de laquelle j'ai consolidé mes
+              compétences en HTML/CSS et développé une expertise en JavaScript et
+              React.
             </p>
             <p>
-              J'ai intégré la formation certifiante développeur intégrateur web
-              niveau bac +2 d'OpenClassroom. Durant laquelle j'ai solidifié mes
-              compétences en HTML/CSS et obtenu de nouvelles connaissances en
-              JavaScript/React.
+              Actuellement en alternance en tant que Lead Developer chez
+              Fluidexpert, je poursuis un Bachelor Concepteur Développeur
+              d'Applications à CESI Dijon. Je me spécialise dans le développement
+              d'applications web modernes.
             </p>
             <p>
-              En fin de formation, je suis fier de ce que j'ai accompli et prêt
-              à découvrir de nouvelle opportunité et solidifier davantage mes
-              connaissances dans le web.
+              Fier du chemin parcouru, je continue d'approfondir mes connaissances
+              et suis motivé à relever de nouveaux défis techniques dans le
+              développement web.
             </p>
           </div>
           <div className="intro_pres-links">
